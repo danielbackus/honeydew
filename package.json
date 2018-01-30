@@ -1,6 +1,6 @@
 {
 	"name": "honeydew",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description":
 		"A lightweight worker class to automate promise-returning tasks with NO dependencies",
 	"main": "index.js",
