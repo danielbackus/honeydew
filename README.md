@@ -1,4 +1,4 @@
-# Honeydew
+# Honeydew 🍈
 
 A lightweight worker class to automate promise-returning tasks with NO dependencies.
 
@@ -28,6 +28,9 @@ A lightweight worker class to automate promise-returning tasks with NO dependenc
             return task;
         })
     }
+
+    // on initialization, the worker will begin to find and run tasks
+    const worker = new Worker(findTask);
 ```
 
 ## Tests
