@@ -1,0 +1,24 @@
+{
+	"name": "honeydew",
+	"version": "1.0.0",
+	"description":
+		"A lightweight worker class to automate promise-returning tasks with NO dependencies",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "nyc ava"
+	},
+	"author": "Daniel Backus <danbackus@gmail.com>",
+	"license": "GPL-3.0",
+	"engines": {
+		"node": ">=5.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"nyc": "^11.4.1",
+		"testdouble": "^3.3.3"
+	},
+	"dependencies": {}
+}
