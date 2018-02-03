@@ -1,8 +1,8 @@
 {
 	"name": "honeydew",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description":
-		"A lightweight worker class to automate promise-returning tasks with NO dependencies",
+		"A lightweight helper to monitor & automate promise-returning tasks with NO dependencies",
 	"main": "index.js",
 	"directories": {
 		"lib": "lib"
