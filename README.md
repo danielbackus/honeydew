@@ -4,7 +4,7 @@
 
 Honeydew is a lightweight helper to monitor & automate promise-returning tasks with NO dependencies.
 
-This utility grew out of frustration with promise queue strategies when executing large numbers of async tasks. Chaining promises requires thorough error hansdling, or it is easy for errors to cascade with the result that the remainder of your promised tasks are never attempted.
+This utility grew out of frustration with promise queue strategies when executing large numbers of async tasks. Chaining promises requires thorough error handling, or it is easy for errors to cascade with the result that the remainder of your promised tasks are never attempted.
 
 Honeydew is a monitor utility that, rather than queuing the entire workload, looks for a unit of work, executes it, awaits the promise's resolution, rejection, or timeout, and then repeats this process. The intention here is to create a more stable way of executing large numbers of async tasks, that is resilient to promise rejections, timeouts, and can recover smoothly from unexpected stops.
 
