@@ -1,6 +1,6 @@
 {
 	"name": "honeydew",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description":
 		"A lightweight helper to monitor & automate promise-returning tasks with NO dependencies",
 	"main": "index.js",
