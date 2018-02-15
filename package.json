@@ -1,29 +1,29 @@
 {
-	"name": "honeydew",
-	"version": "1.0.4",
-	"description":
-		"A lightweight helper to monitor & automate promise-returning tasks with NO dependencies",
-	"main": "index.js",
-	"directories": {
-		"lib": "lib"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/nosleepnotever/honeydew.git"
-	},
-	"scripts": {
-		"test": "nyc ava"
-	},
-	"author": "Daniel Backus <danbackus@gmail.com>",
-	"license": "GPL-3.0",
-	"engines": {
-		"node": ">=5.0.0"
-	},
-	"devDependencies": {
-		"ava": "^0.25.0",
-		"coveralls": "^3.0.0",
-		"nyc": "^11.4.1",
-		"testdouble": "^3.3.3"
-	},
-	"dependencies": {}
+    "name": "honeydew",
+    "version": "1.0.5",
+    "description":
+        "A lightweight helper to monitor & automate promise-returning tasks with NO dependencies",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nosleepnotever/honeydew.git"
+    },
+    "scripts": {
+        "test": "nyc ava"
+    },
+    "author": "Daniel Backus <danbackus@gmail.com>",
+    "license": "GPL-3.0",
+    "engines": {
+        "node": ">=5.0.0"
+    },
+    "devDependencies": {
+        "ava": "^0.25.0",
+        "coveralls": "^3.0.0",
+        "nyc": "^11.4.1",
+        "testdouble": "^3.3.3"
+    },
+    "dependencies": {}
 }
