@@ -21,19 +21,20 @@ const { Worker } = require('honeydew');
 // this will generally be a database query
 // to find relevant work to be done
 const findTask = () => {
-	// this function must return a promise
-	return db.Requests.findOne({ status: 'Queued' }).then(request => {
-		// this promise must return a function
-		const task = () => {
-			// when this function is executed, it must return a promise
-			// this is the actual unit of work to be done
-			return VendorAPI.post(request).then(res => {
-				const response = Object.assign({}, res, { request: request._id });
-				return db.Responses.create(response);
-			});
-		};
-		return task;
-	});
+    // this function must return a function (or a promise that resolves to a function)
+    return db.Requests.findOne({ status: 'Queued' }).then(request => {
+        const task = () => {
+            // when this returned function is executed, it must return a promise
+            // this is the actual unit of work to be done
+            return VendorAPI.post(request).then(res => {
+                const response = Object.assign({}, res, {
+                    request: request._id
+                });
+                return db.Responses.create(response);
+            });
+        };
+        return task;
+    });
 };
 
 // on initialization, the worker will begin to find and run tasks
