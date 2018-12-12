@@ -1,6 +1,6 @@
 # Honeydew 🍈
 
-[![Build Status](https://travis-ci.org/nosleepnotever/honeydew.svg?branch=master)](https://travis-ci.org/nosleepnotever/honeydew) [![Coverage Status](https://coveralls.io/repos/github/nosleepnotever/honeydew/badge.svg?branch=master)](https://coveralls.io/github/nosleepnotever/honeydew?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/nosleepnotever/honeydew/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nosleepnotever/honeydew?targetFile=package.json)
+[![Build Status](https://travis-ci.org/danielbackus/honeydew.svg?branch=master)](https://travis-ci.org/danielbackus/honeydew) [![Coverage Status](https://coveralls.io/repos/github/danielbackus/honeydew/badge.svg?branch=master)](https://coveralls.io/github/danielbackus/honeydew?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/danielbackus/honeydew/badge.svg?targetFile=package.json)](https://snyk.io/test/github/danielbackus/honeydew?targetFile=package.json)
 
 Honeydew is a lightweight helper to monitor & automate promise-returning tasks with NO dependencies.
 
